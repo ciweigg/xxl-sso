@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/xxl-logo.jpg" width="150">
-    <h3 align="center">XXL-SSO</h3>SSS
+    <h3 align="center">XXL-SSO</h3>
     <p align="center">
         XXL-SSO, A Distributed Single-Sign-On Framework.
         <br>
