@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Package') {
       steps {
-        sh 'git clone https://github.com/ciweigg/xxl-sso.git'
+        sh ''mvn -B -DskipTests -Dmaven.javadoc.skip=true clean package'
       }
     }
   }
