@@ -6,14 +6,9 @@ pipeline {
         sh 'mvn clean package'
       }
     }
-    stage('in server') {
-      steps {
-        sh 'cd xxl-sso-server/target/'
-      }
-    }
     stage('start') {
       steps {
-        sh 'java -jar xxl-sso-server-0.1.1-SNAPSHOT.jar'
+        sh 'java -jar xxl-sso-server/target/xxl-sso-server-0.1.1-SNAPSHOT.jar'
       }
     }
   }
